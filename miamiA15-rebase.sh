@@ -8,7 +8,5 @@ git clone https://github.com/Rakhshan7070/proprietary_vendor_motorola_miami.git 
 
 git clone https://github.com/Rakhshan7070/proprietary_vendor_motorola_sm6375-common.git -b rebase/15.0 vendor/motorola/sm6375-common
 
-git clone https://github.com/Rakhshan7070/android_kernel_motorola_sm6375.git -b 15.0 kernel/motorola/sm6375
-
 git clone https://github.com/Rakhshan7070/android_hardware_motorola.git -b 15.0 hardware/motorola
 

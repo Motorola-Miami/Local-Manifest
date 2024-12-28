@@ -8,8 +8,6 @@ git clone https://github.com/Motorola-Miami/proprietary_vendor_motorola_miami.gi
 
 git clone https://github.com/Motorola-Miami/proprietary_vendor_motorola_sm6375-common.git -b 15.0 vendor/motorola/sm6375-common
 
-git clone https://github.com/Motorola-Miami/android_kernel_motorola_sm6375.git -b 15.0 kernel/motorola/miami
-
 git clone https://github.com/Motorola-Miami/android_hardware_motorola.git -b 15.0 hardware/motorola
 
 rm -rf hardware/qcom-caf/sm8350/audio

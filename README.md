@@ -1,9 +1,10 @@
 # Local-Manifest-Miami (Moto Edge 30 Neo)
 =========================================
+## *It is preferred to build on rebased tress*
 
 Assuming already synced Sources (A15):
  - cd into your ROM's folder
-
+ 
 --- To build with rebased miami trees (merged with fogos & bangkk):
 ```
 curl https://raw.githubusercontent.com/Motorola-Miami/Local-Manifest/15.0/miamiA15-rebase.sh | bash

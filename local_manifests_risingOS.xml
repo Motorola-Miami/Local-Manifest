@@ -6,11 +6,11 @@
     <remote name="Motorola-Miami-Gitlab" fetch="https://gitlab.com/Motorola-Miami" clone-depth="1" />
 
     <!-- Removals -->
-
+    <remove-project path="packages/apps/Updater" />
 
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/motorola/miami" name="android_device_motorola_miami" remote="Motorola-Miami-Github" revision="rebase/15.0" />
+    <project path="device/motorola/miami" name="android_device_motorola_miami" remote="Motorola-Miami-Github" revision="rebase/15.0_risingOS" />
 
     <!-- Device - Common -->
     <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="Motorola-Miami-Github" revision="rebase/15.0" />
@@ -22,12 +22,12 @@
     <project path="vendor/motorola/miami" name="proprietary_vendor_motorola_miami" remote="Motorola-Miami-Gitlab" revision="rebase/15.0" />
 
     <!-- Vendor - Common -->
-    <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="Motorola-Miami-Github" revision="rebase/15.0-lineage-22.1" />
+    <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="Motorola-Miami-Github" revision="rebase/15.0" />
 
     <!-- Hardware -->
     <project path="hardware/motorola" name="android_hardware_motorola" remote="Motorola-Miami-Github" revision="15.0" />
 
     <!-- Updater -->
-    <project path="packages/apps/Updater" name="android_miami_packages_apps_Updater" remote="Motorola-Miami-Github" revision="15.0-lineage-22.1" />
+    <project path="packages/apps/Updater" name="android_miami_packages_apps_Updater" remote="Motorola-Miami-Github" revision="15.0_risingOS" />
 
 </manifest>

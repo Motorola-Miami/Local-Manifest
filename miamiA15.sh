@@ -10,7 +10,3 @@ git clone https://github.com/Motorola-Miami/proprietary_vendor_motorola_sm6375-c
 
 git clone https://github.com/Motorola-Miami/android_hardware_motorola.git -b 15.0 hardware/motorola
 
-rm -rf hardware/qcom-caf/sm8350/audio
-
-git clone https://github.com/Motorola-Miami/android_hardware_qcom_audio.git -b 15.0-caf-sm8350 hardware/qcom-caf/sm8350/audio
-
